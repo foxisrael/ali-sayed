@@ -1,4 +1,50 @@
-// Импорт стилей
-@import "variables.less";
-@import "base.less";
-@import "font-settings.less";
+.main-block{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-block h2,
+.main-block p{
+  color: @color-white;
+  margin-bottom: 35px;
+}
+
+.main-block p{
+  font-size: 16px;
+}
+
+.main-block__1{
+  width: 614px;
+  height: 855px;
+  background: url("../img/bg_block_1.jpg") no-repeat;
+  background-size: cover;
+  padding: 55px;
+}
+
+.main-block__2{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 752px;
+}
+
+.main-block__2-1{
+  width: 752px;
+  height: 427px;
+  background: url("../img/bg_block_2-1.jpg") no-repeat;
+  background-size: cover;
+  padding: 55px;
+}
+
+.main-block__2-1 h2,
+.main-block__2-1 p{
+  color: @color-darkblue;
+}
+
+.main-block__2-2{
+  width: 752px;
+  height: 427px;
+  background: url("../img/bg_block_2-2.jpg") no-repeat;
+  background-size: cover;
+  padding: 55px;
+}
